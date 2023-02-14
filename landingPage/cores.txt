@@ -1,0 +1,41 @@
+na lista Concluído
+Descrição
+Editar
+/\ *Color Theme Swatches in Hex */
+.Karol-Cosméticos-1-hex { color: #65497A; }
+.Karol-Cosméticos-2-hex { color: #C7B89F; }
+.Karol-Cosméticos-3-hex { color: #AD8BC7; }
+.Karol-Cosméticos-4-hex { color: #77C797; }
+.Karol-Cosméticos-5-hex { color: #507A61; }
+
+/\ *Color Theme Swatches in RGBA */
+.Karol-Cosméticos-1-rgba { color: rgba(101, 73, 122, 1); }
+.Karol-Cosméticos-2-rgba { color: rgba(199, 184, 159, 1); }
+.Karol-Cosméticos-3-rgba { color: rgba(173, 139, 199, 1); }
+.Karol-Cosméticos-4-rgba { color: rgba(119, 199, 151, 1); }
+.Karol-Cosméticos-5-rgba { color: rgba(80, 122, 97, 1); }
+
+/\ *Color Theme Swatches in HSLA */
+.Karol-Cosméticos-1-hsla { color: hsla(274, 25, 38, 1); }
+.Karol-Cosméticos-2-hsla { color: hsla(37, 26, 70, 1); }
+.Karol-Cosméticos-3-hsla { color: hsla(274, 34, 66, 1); }
+.Karol-Cosméticos-4-hsla { color: hsla(144, 41, 62, 1); }
+.Karol-Cosméticos-5-hsla { color: hsla(144, 20, 39, 1); }
+
+Atividade
+Ocultar Detalhes
+Escrever um comentário...
+Almir Fidelis moveu este cartão de A Fazer para Concluído
+Ontem às 22:35
+Almir Fidelis adicionou este cartão a A Fazer
+Ontem às 21:17
+Adicionar ao cartão
+
+Datas
+Adicione listas suspensas, campos de texto, datas e muito mais aos seus cartões.
+
+Iniciar teste gratuito
+Power-Ups
+Automação
+
+Ações

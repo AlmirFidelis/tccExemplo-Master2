@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pepsi Website Landing Page</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <section class="sec">
+        <header>
+            <a href="#"><img src="images/logoKarol-White.png" alt="logo" class="logo"></a>
+            <div class="toggleMenu" onclick="menuToggle();"></div>
+            <ul class="navigation">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Produtos</a></li>
+                <li><a href="#">Novidades</a></li>
+                <li><a href="#">Newsletter</a></li>
+                <li><a href="#">Contato</a></li>
+            </ul>
+        </header>
+        <div class="content">
+            <div class="textBox">
+                <h2>Maciez e<br><span>toque Aveludado</span></h2>
+                <p>O Hidratante Corporal Karol Cosméticos é enriquecido com Extrato de Algodão, conhecido por suas propriedades hidratantes e emolientes, que proporcionam suavidade, maciez, um toque aveludado e não deixa sua pele “grudenta” como os hidratantes convencionais.</p>
+                <p>Contém agente hidratante de ação prolongada que retém a umidade de maneira natural, aumentando a elasticidade da pele.</p>
+                <a href="#">Veja todos os produtos</a>
+            </div>
+            <div class="imgBox">
+                <img src="images/hidratante001.png" alt="hidratante" class="hidratante">
+            </div>
+        </div>
+        <ul class="thumb">
+            <li><img src="images/hidratante001.png" alt="pepsiThumb" onclick="imgSlider('images/hidratante001.png'); changeBgColor('#AD8BC7')"></li>
+            <li><img src="images/hidratante002.png" alt="pepsiThumb" onclick="imgSlider('images/hidratante002.png'); changeBgColor('#65497A')"></li>
+            <li><img src="images/hidratante003.png" alt="pepsiThumb" onclick="imgSlider('images/hidratante003.png'); changeBgColor('#507A61')"></li>
+        </ul>
+        <ul class="sci">
+            <li><a href="#"><img src="images/facebook.png" alt="facebook"></a></li>
+            <li><a href="#"><img src="images/twitter.png" alt="twitter"></a></li>
+            <li><a href="#"><img src="images/instagram.png" alt="instagram"></a></li>
+        </ul>
+    </section>
+
+    <script type="text/javascript">
+        function imgSlider(anything){
+            document.querySelector('.hidratante').src = anything;
+        }
+
+        function changeBgColor(color){
+            const sec = document.querySelector('.sec');
+            sec.style.background = color;
+        }
+
+        function menuToggle(){
+            const toggleMenu = document.querySelector('.toggleMenu');
+            const navigation = document.querySelector('.navigation');
+            toggleMenu.classList.toggle('active');
+            navigation.classList.toggle('active');
+        }
+    </script>
+</body>
+</html>

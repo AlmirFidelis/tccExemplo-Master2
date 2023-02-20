@@ -29,9 +29,9 @@ nav {
     flex-wrap: wrap;
 }
 
-nav > div > .logo {
-    height: 80%;
-    width: 80%;
+.logo img {
+    height: 60%;
+    width: 60%;
 }
 
 nav ul {
@@ -75,6 +75,7 @@ nav .menu-btn i {
 }
 
 #carrinho {
+    background-color: #77C797;
     max-width: 900px;
     margin: 0 auto;
     padding: 0 2%;
@@ -120,6 +121,12 @@ h2 {
     border-bottom: 2px dotted;
 }
 
+footer {
+    text-align: center;
+    font-weight: bolder;
+}
+
+/* Criando a Media-Query */
 @media screen and (max-width: 768px) {
     nav .menu-btn i {
         display: block;

@@ -1,3 +1,4 @@
+// ########### Variáveis ###########
 const items = [
     {
         id: 0,
@@ -19,6 +20,7 @@ const items = [
     },
 ]
 
+// ########### Mostrar produtos na loja ###########
 inicializarLoja = () => {
     var containerProdutos = document.getElementById('produtos');
     items.map((val)=>{
@@ -35,6 +37,7 @@ inicializarLoja = () => {
 
 inicializarLoja();
 
+// ########### Adicionar produtos ao carrinho ###########
 atualizarCarrinho = () => {
     var containerCarrinho = document.getElementById('carrinho');
     containerCarrinho.innerHTML = "";
@@ -52,6 +55,7 @@ atualizarCarrinho = () => {
     })
 }
 
+// ########### Atualizar quantidade do produtos ###########
 var links = document.getElementsByClassName('link-produto');
 
 for(var i = 0; i < links.length; i++) {
@@ -63,6 +67,7 @@ for(var i = 0; i < links.length; i++) {
     })
 }
 
+// ########### Abrir e Fechar o Menu ###########
 var ul = document.querySelector('nav ul');
 var menuBtn = document.querySelector('.menu-btn i');
 
